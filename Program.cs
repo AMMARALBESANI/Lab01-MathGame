@@ -75,7 +75,7 @@
 
             if (sum <= 20)
             {
-                Console.WriteLine($"Value of {sum} is too low");
+                throw new Exception ($"Value of {sum} is too low");
             }
 
             return sum;
